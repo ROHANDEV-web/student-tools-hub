@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Student Tools – 100% Free & Fast | Student Tools Hub</title>
+    <meta name="description"
+        content="Access free online student tools including GPA calculators, study timers, math calculators, writing tools, and more. Fast, free, and mobile-friendly.">
+    <meta name="keywords"
+        content="student tools, gpa calculator, cgpa converter, pomodoro timer, word counter, interest calculator, bmi calculator">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Student Tools Hub - Free Online Student Tools">
+    <meta property="og:description"
+        content="A comprehensive suite of tools for students: Academic, Math, Writing, and Utilities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://studenttoolshub.example.com">
+    <meta property="og:image" content="https://studenttoolshub.example.com/assets/images/og-image.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google AdSense Placeholder -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+
+<body class="bg-slate-50">
+
+    <!-- Navigation Bar -->
+    <header id="header" class="sticky-header w-full border-b border-slate-200 bg-white/80 backdrop-blur-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold">
+                        S</div>
+                    <span
+                        class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">StudentHub</span>
+                </a>
+            </div>
+
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#academic"
+                    class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Academic</a>
+                <a href="#math"
+                    class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Math</a>
+                <a href="#writing"
+                    class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Writing</a>
+                <a href="#utility"
+                    class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Utilities</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <a href="pages/about.html"
+                    class="hidden sm:block text-sm font-medium px-4 py-2 rounded-full border border-indigo-200 text-indigo-600 hover:bg-indigo-50 transition-all">About
+                    Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-white pt-16 pb-20 md:pt-24 md:pb-32 px-4 overflow-hidden">
+        <div class="max-w-7xl mx-auto relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                Free Online Student Tools – <br>
+                <span class="text-indigo-600">100% Free & Fast</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-10">
+                The ultimate companion for students. From GPA calculators to study timers, find everything you need to
+                boost your academic productivity in one place.
+            </p>
+
+            <!-- Search Bar -->
+            <div class="max-w-2xl mx-auto relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <svg class="h-5 w-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <input type="text" id="tool-search"
+                    placeholder="Search for tools (e.g., GPA Calculator, Word Counter...)"
+                    class="block w-full pl-11 pr-4 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-indigo-100 focus:border-indigo-500 outline-none text-lg transition-all shadow-sm">
+            </div>
+        </div>
+
+        <!-- Background Accents -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none">
+            <div
+                class="absolute top-[10%] left-[5%] w-64 h-64 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob">
+            </div>
+            <div
+                class="absolute top-[20%] right-[10%] w-72 h-72 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000">
+            </div>
+        </div>
+    </section>
+
+    <!-- Ad placeholder after Hero -->
+    <div class="max-w-7xl mx-auto px-4 my-8">
+        <div
+            class="w-full h-32 bg-slate-100 border-2 border-dashed border-slate-200 rounded-xl flex items-center justify-center text-slate-400 text-sm">
+            Google AdSense Placeholder - Horizontal Display
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 pb-20">
+
+        <!-- Academic Tools -->
+        <section id="academic" class="mb-16">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-indigo-600 pl-4">Academic Tools</h2>
+                <span class="text-sm font-medium text-slate-500">Essential for school & college</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="academic-tools-container">
+                <!-- Academic tools will be injected here -->
+            </div>
+        </section>
+
+        <!-- Ad Placeholder -->
+        <div class="my-12">
+            <div
+                class="w-full h-24 bg-slate-100 border-2 border-dashed border-slate-200 rounded-xl flex items-center justify-center text-slate-400 text-sm">
+                Google AdSense Placeholder - In-feed AD
+            </div>
+        </div>
+
+        <!-- Math Tools -->
+        <section id="math" class="mb-16">
+            <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-emerald-500 pl-4 mb-8">Math & Finance Tools
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="math-tools-container">
+                <!-- Math tools will be injected here -->
+            </div>
+        </section>
+
+        <!-- Writing Tools -->
+        <section id="writing" class="mb-16">
+            <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-amber-500 pl-4 mb-8">Writing & Text Tools
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="writing-tools-container">
+                <!-- Writing tools will be injected here -->
+            </div>
+        </section>
+
+        <!-- Utility Tools -->
+        <section id="utility" class="mb-16">
+            <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-rose-500 pl-4 mb-8">Utility Tools</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="utility-tools-container">
+                <!-- Utility tools will be injected here -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="flex items-center gap-2 mb-6">
+                        <div
+                            class="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center text-white font-bold">
+                            S</div>
+                        <span class="text-xl font-bold text-white">StudentHub</span>
+                    </a>
+                    <p class="text-slate-400 mb-6 max-w-sm">
+                        Free online tools for students worldwide. We provide fast, accurate, and easy-to-use calculators
+                        and timers to help you succeed.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-6 uppercase text-xs tracking-widest">Company</h3>
+                    <ul class="space-y-4">
+                        <li><a href="pages/about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="pages/contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="pages/privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                        </li>
+                        <li><a href="pages/terms.html" class="hover:text-white transition-colors">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-6 uppercase text-xs tracking-widest">Connect</h3>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                            </svg>
+                        </a>
+                        <!-- Add more social icons -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ad placeholder before footer end -->
+            <div
+                class="w-full h-20 bg-slate-800 border border-slate-700 rounded-lg flex items-center justify-center text-slate-500 text-sm mb-8">
+                Google AdSense Placeholder - Footer AD
+            </div>
+
+            <div
+                class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+                <p>© 2026 StudentToolsHub. Built with precision for students.</p>
+                <div class="flex gap-6">
+                    <span>100% Free</span>
+                    <span>No Sign-up Required</span>
+                    <span>Private & Secure</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tool Modal Container -->
+    <div id="tool-modal" class="tool-modal">
+        <div
+            class="bg-white rounded-3xl w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl relative animate-fade-in">
+            <div
+                class="px-6 py-4 border-b border-slate-100 flex items-center justify-between sticky top-0 bg-white z-10">
+                <h2 id="modal-title" class="text-2xl font-bold text-slate-900">Tool Name</h2>
+                <button id="close-modal" class="p-2 hover:bg-slate-100 rounded-full transition-colors text-slate-400">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div id="modal-content" class="p-6">
+                <!-- Tool implementation goes here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/tools.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
